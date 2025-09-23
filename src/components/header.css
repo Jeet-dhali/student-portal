@@ -1,0 +1,76 @@
+.header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;             
+    width: 100%; 
+    height: 100px;
+    background: rgba(26, 26, 46, 0.9);
+    backdrop-filter: blur(10px);
+}
+
+.nav-buttons {
+    display: flex;
+    margin-left: auto;
+    margin-right: 50px;
+    gap: 15px;
+}
+
+.btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+
+.btn-explore {
+    background: linear-gradient(45deg, #ff006e, #8338ec);
+    color: white;
+}
+
+.btn-signup {
+    background: linear-gradient(45deg, #3a86ff, #06ffa5);
+    color: white;
+}
+
+.btn-login {
+    background: linear-gradient(45deg, #06ffa5, #00d4ff);
+    color: white;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.header h1 {
+    margin-left: 10px;
+    background: linear-gradient(45deg, #ff006e, #8338ec, #3a86ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    padding: 10px;
+}
