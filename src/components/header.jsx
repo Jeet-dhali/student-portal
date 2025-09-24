@@ -1,3 +1,4 @@
+import {motion} from 'framer-motion'
 import '../components/header.css'
 
 export function Navbar() {
@@ -8,9 +9,18 @@ export function Navbar() {
                 <div className='logo'><img src='NITNLOGO-Photoroom.png'></img></div>
                     <h1>NIT NAGALAND CLUB</h1> 
                 <div className="nav-buttons">
-                    <a href="#" className="btn btn-explore">Explore Clubs</a>
-                    <a href="#" className="btn btn-signup">Sign Up</a>
-                    <a href="#" className="btn btn-login">Log In</a>
+                    <motion.a 
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    href="#" className="btn btn-explore">Explore Clubs</motion.a>
+                    <motion.a 
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    href="#" className="btn btn-signup">Sign Up</motion.a>
+                    <motion.a 
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    href="#" className="btn btn-login">Log In</motion.a>
                 </div>
             </div>
         </header>

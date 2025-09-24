@@ -25,6 +25,14 @@ body {
   text-align: center;
 }
 
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
 .main-title {
   font-size: 90px;
   font-weight: bold;
