@@ -1,0 +1,10 @@
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(3, 3, 27, 0.9);
+  box-shadow: black; 
+  backdrop-filter: blur(10px);
+  color: rgb(200, 200, 200);
+}

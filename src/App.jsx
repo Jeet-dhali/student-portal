@@ -1,18 +1,21 @@
-import { Navbar } from './components/header.jsx'
-import { Footer } from './components/footer.jsx'
-import { MainBody } from './components/main-body.jsx'
+import { HomePage } from './pages/home.jsx';
+import { SignUpPage } from './pages/sign-up.jsx';
+import { LoginPage } from './pages/login.jsx';
+import { Routes, Route } from 'react-router-dom';
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <div className='header'>
-        <Navbar />
-      </div>
-      <MainBody />
-      <Footer />
-      <div className='copyright'><p>© 2025 NIT Nagaland — All rights reserved.</p></div>
+        
+        <Routes>
+          <Route index element={<HomePage />} />
+          <Route path="signup" element={<SignUpPage />} />
+          <Route path="login" element={<LoginPage />} />
+        </Routes>
+        
+      
     </>
   )
 }
