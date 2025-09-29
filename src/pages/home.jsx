@@ -11,8 +11,12 @@ export function HomePage() {
             <div className='header'>
                 <Navbar />
             </div>
-            <MainBody />
             
+            <div className="fixed inset-0 -z-10">
+                <div className="absolute inset-0 bg-black" />
+                <Hyperspeed className="w-full h-full" />
+            </div>
+            <MainBody />
             <Footer />
         <   div className='copyright'><p>© 2025 NIT Nagaland — All rights reserved.</p></div>
         </>

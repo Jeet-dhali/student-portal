@@ -7,8 +7,8 @@ export function Navbar() {
         <>
         <header>
             <div className="header">
-                <div className='logo'><img src='NITNLOGO-Photoroom.png'></img></div>
-                    <h1>NIT NAGALAND CLUB</h1> 
+                <div className='logo'><a href='/'><img src='NITNLOGO-Photoroom.png'></img></a></div>
+                    <a href='/'><h1>NIT NAGALAND CLUB</h1></a>
                 <div className="nav-buttons">
                         <motion.a 
                         whileHover={{ scale: 1.05 }}
