@@ -10,18 +10,18 @@ export function Navbar() {
                 <div className='logo'><a href='/'><img src='NITNLOGO-Photoroom.png'></img></a></div>
                     <a href='/'><h1>NIT NAGALAND CLUB</h1></a>
                 <div className="nav-buttons">
-                        <motion.a 
+                        <motion.a
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         href="#" className="btn btn-explore">Explore Clubs</motion.a>
                         <motion.a 
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        href="/student-portal/signup" className="btn btn-signup">Sign Up</motion.a>
+                        href="/signup" className="btn btn-signup">Sign Up</motion.a>
                         <motion.a 
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
-                        href="/student-portal/login" className="btn btn-login">Login</motion.a>
+                        href="/login" className="btn btn-login">Login</motion.a>
                 </div>
             </div>
         </header>
